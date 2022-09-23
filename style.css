@@ -84,7 +84,7 @@ footer {
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
 }
 
