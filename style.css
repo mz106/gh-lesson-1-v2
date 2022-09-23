@@ -63,7 +63,7 @@ img {
 
 .section-bottom {
     height: 20vh;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.268);
 }
 
 footer {
@@ -79,12 +79,12 @@ footer {
 
 .nav-bottom {
     display: flex;
-    width: 30vw;
+    width: 10vw;
 }
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
 }
 
