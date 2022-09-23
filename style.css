@@ -30,28 +30,45 @@
 /* =================== Section Middle ==================== */
 
 .section-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 60vh;
-    background-color: blueviolet;
+    background-color: rgb(199, 166, 230);
 }
 
 .container-middle-upper {
-    height: 30vh;
+    display: flex;
+    width: 70vw;
+    justify-content: space-around;
+    border-radius: 25px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0);
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.container-middle-upper:hover {
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
 }
 
 .container-img {
     height: 100%;
     width: 30vw;
+    padding: 10px;
 }
 
 .container-text {
-    height: 100%;
+    display: flex;
+    align-items: center;
+    /* border: solid white; */
     width: 20vw;
+    padding: 10px;
 }
 
 p {
-    font-size: 1.5rem;
-    height: 60%;
+    font-size: 2rem;
     text-align: center;
+    font-weight: bolder;
 }
 
 img {
