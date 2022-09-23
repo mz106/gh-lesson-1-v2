@@ -69,6 +69,7 @@ img {
 footer {
     height: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
@@ -79,16 +80,23 @@ footer {
 
 .nav-bottom {
     display: flex;
-    width: 30vw;
+    width: 40vw;
 }
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    width: 60vw;
+    justify-content: space-between;
 }
+
+.li-menu-bottom {
+    width: 20vw;
+} 
+
 
 .li-menu-bottom:hover {
     color: green;
     cursor: pointer;
+    width: 20vw;
 }   
