@@ -8,14 +8,16 @@
 
 .section-top {
     height: 20vh;
-    background-color: red;
+    background-color: rgb(50, 50, 50);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: white;
 }
 
 .nav-top {
     width: 50%;
+    color: white;
 }
 
 .ul-nav-top {
@@ -35,27 +37,38 @@
 
 .section-middle {
     height: 60vh;
-    background-color: blueviolet;
+    background-color: rgb(0, 0, 0);
 }
 
 .container-middle-upper {
-    height: 30vh;
+    
 }
 
 .container-img {
-    height: 100%;
-    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 100%;
+    margin-top: 5px;
 }
 
 .container-text {
-    height: 100%;
-    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50%;
+    width: 100%;
+    color: white;
 }
 
 p {
     font-size: 1.5rem;
     height: 60%;
     text-align: center;
+    line-height: -100px;
+    
 }
 
 img {
@@ -67,7 +80,7 @@ img {
 
 .section-bottom {
     height: 20vh;
-    background-color: blue;
+    background-color: rgb(71, 71, 71);
 }
 
 footer {
@@ -79,6 +92,7 @@ footer {
 
 .container-footer-left {
     display: flex;
+    color: white;
 }
 
 .nav-bottom {
@@ -95,6 +109,6 @@ footer {
 }
 
 .li-menu-bottom:hover {
-    color: green;
+    color: rgb(247, 243, 11);
     cursor: pointer;
 }   
