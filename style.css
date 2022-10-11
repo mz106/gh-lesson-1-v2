@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* =================== Section Top ==================== */
+/* =================== feature/header ==================== */
 
 .section-top {
     height: 20vh;
@@ -27,7 +27,7 @@
     align-items: center;
 }
 
-/* =================== Section Middle ==================== */
+/* =================== feature/content_section ==================== */
 
 .section-middle {
     height: 60vh;
@@ -59,7 +59,7 @@ img {
     width: 100%;
     object-fit: contain;
 }
-/* =================== Section Bottom ==================== */
+/* =================== feature/footer ==================== */
 
 .section-bottom {
     height: 20vh;

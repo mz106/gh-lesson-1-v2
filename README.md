@@ -18,9 +18,9 @@ You will need to create three branches to complete this task. Please follow the 
 
     feature/header
 
-2. Changes to the main section should be made on the branch
+2. Changes to the content section should be made on the branch
 
-    feature/main_content
+    feature/content_section
 
 3. Changes to the main section should be made on the branch
 
