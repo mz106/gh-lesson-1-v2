@@ -50,11 +50,15 @@
 }
 
 .container-middle-upper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     height: 30vh;
+    padding:20px;
 }
 
 .container-img {
-    height: 100%;
+    
     width: 30vw;
 }
 
@@ -72,7 +76,7 @@ p {
 img {
     height: 100%;
     width: 100%;
-    object-fit: contain;
+    
 }
 /* =================== feature/footer ==================== */
 
