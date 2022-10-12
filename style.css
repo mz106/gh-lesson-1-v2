@@ -41,15 +41,21 @@
 }
 
 .container-middle-upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 30vh;
 }
 
 .container-img {
+  margin-top: 50px;
   height: 100%;
   width: 30vw;
 }
 
 .container-text {
+  color: white;
+  margin-top: 25px;
   height: 100%;
   width: 20vw;
 }
