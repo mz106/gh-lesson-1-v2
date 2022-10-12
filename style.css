@@ -27,6 +27,11 @@
     align-items: center;
 }
 
+.li-menu-top:hover {
+    text-decoration: underline;
+    background-color: blanchedalmond;
+}
+
 /* =================== feature/content_section ==================== */
 
 .section-middle {
