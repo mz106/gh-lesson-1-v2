@@ -93,8 +93,13 @@ footer {
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+}
+
+.li-menu-bottom{
+    display:block;
+    padding:10px;
 }
 
 .li-menu-bottom:hover {
