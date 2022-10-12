@@ -90,6 +90,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color:white;
 }
 
 .container-footer-left {
@@ -103,12 +104,20 @@ footer {
 
 .ul-nav-bottom {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+
+}
+
+.li-menu-bottom{
+    cursor:pointer;
+    display:block;
+    padding:10px;
 }
 
 .li-menu-bottom:hover {
     color: green;
     cursor: pointer;
+
 }  
 
