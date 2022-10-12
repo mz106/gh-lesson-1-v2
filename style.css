@@ -27,11 +27,20 @@
     align-items: center;
 }
 
+.li-menu-top:hover {
+    text-decoration: underline;
+    background-color: blanchedalmond;
+}
+
 /* =================== feature/content_section ==================== */
 
 .section-middle {
     height: 60vh;
     background-color: blueviolet;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-middle-upper {
