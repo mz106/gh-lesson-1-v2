@@ -25,6 +25,21 @@
     justify-content: space-between;
     height: 10vh;
     align-items: center;
+
+}
+
+.li-menu-top{
+    display:block;
+    padding:10px;
+    
+}
+
+.li-menu-top:hover {
+    
+    background-color: beige;
+    cursor: pointer;
+    text-decoration: underline;
+
 }
 
 /* =================== feature/content_section ==================== */
@@ -93,7 +108,3 @@ footer {
     cursor: pointer;
 }  
 
-.li-menu-top:hover {
-    color: blue;
-    font-size: larger;
-}
