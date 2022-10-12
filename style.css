@@ -1,99 +1,106 @@
-*  {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* =================== feature/header ==================== */
 
 .section-top {
-    height: 20vh;
-    background-color: red;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  height: 20vh;
+  background-color: red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .nav-top {
-    width: 50%;
+  width: 50%;
 }
 
 .ul-nav-top {
-    display: flex;
-    width: 100%;
-    list-style: none;
-    justify-content: space-between;
-    height: 10vh;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
 }
 
 /* =================== feature/content_section ==================== */
 
 .section-middle {
-    height: 60vh;
-    background-color: blueviolet;
+  height: 60vh;
+  background-color: blueviolet;
 }
 
 .container-middle-upper {
-    height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 30vh;
 }
 
 .container-img {
-    height: 100%;
-    width: 30vw;
+  margin-top: 50px;
+  height: 100%;
+  width: 30vw;
 }
 
 .container-text {
-    height: 100%;
-    width: 20vw;
+  color: white;
+  margin-top: 25px;
+  height: 100%;
+  width: 20vw;
 }
 
 p {
-    font-size: 1.5rem;
-    height: 60%;
-    text-align: center;
+  font-size: 1.5rem;
+  height: 60%;
+  text-align: center;
 }
 
 img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 /* =================== feature/footer ==================== */
 
 .section-bottom {
-    height: 20vh;
-    background-color: blue;
+  height: 20vh;
+  background-color: blue;
 }
 
 footer {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .container-footer-left {
-    display: flex;
+  display: flex;
 }
 
 .nav-bottom {
-    display: flex;
-    width: 30vw;
+  display: flex;
+  width: 30vw;
 }
 
 .ul-nav-bottom {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .li-menu-bottom:hover {
-    color: green;
-    cursor: pointer;
-}  
+  color: green;
+  cursor: pointer;
+}
 
 .li-menu-top:hover {
-    color: blue;
-    font-size: larger;
+  color: blue;
+  font-size: larger;
 }
