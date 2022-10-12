@@ -27,6 +27,12 @@
   align-items: center;
 }
 
+.li-menu-top:hover {
+  background-color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
 /* =================== feature/content_section ==================== */
 
 .section-middle {
@@ -38,7 +44,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   height: 30vh;
 }
 
