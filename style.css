@@ -26,12 +26,16 @@
     height: 10vh;
     align-items: center;
 }
-
+.li-menu-top:hover {
+    color:white;
+}
 /* =================== feature/content_section ==================== */
 
 .section-middle {
     height: 60vh;
-    background-color: blueviolet;
+    background-color:whitesmoke;
+    
+    margin-bottom:30px;
 }
 
 .container-middle-upper {
@@ -41,14 +45,18 @@
 .container-img {
     height: 100%;
     width: 30vw;
+    width: 100vw;
+    padding:20px 0px;
 }
 
 .container-text {
     height: 100%;
-    width: 20vw;
-}
+    width: 80vw;
+    margin:auto;
+    box-shadow: 5px 10px 5px #888888 ;}
 
 p {
+    padding-top:50px;
     font-size: 1.5rem;
     height: 60%;
     text-align: center;
