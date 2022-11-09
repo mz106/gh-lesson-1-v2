@@ -26,7 +26,9 @@
     height: 10vh;
     align-items: center;
 }
-
+.li-menu-top:hover {
+    color:white;
+}
 /* =================== feature/content_section ==================== */
 
 .section-middle {
