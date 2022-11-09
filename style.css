@@ -93,3 +93,7 @@ footer {
     cursor: pointer;
 }  
 
+.li-menu-top:hover {
+    color: green;
+    cursor: pointer;
+}
